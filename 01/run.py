@@ -39,6 +39,8 @@ def find_triplet(input_data):
 
 triplet = find_triplet(input_data)
 if triplet is not None:
-    print(triplet, sum(triplet), triplet[0]*triplet[1]*triplet[2])
+    print(triplet)
+    print('Sum:', sum(triplet))
+    print('Product:', triplet[0]*triplet[1]*triplet[2])
 
 # %%
