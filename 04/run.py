@@ -130,7 +130,7 @@ def validate_hgt(val):
         except:
             return False
     valid_in = re.search(
-        '[5-9][0-9]in', val) is not None and _validate_inch_val(val)
+        '[5-7][0-9]in', val) is not None and _validate_inch_val(val)
     return valid_cm or valid_in
 
 
